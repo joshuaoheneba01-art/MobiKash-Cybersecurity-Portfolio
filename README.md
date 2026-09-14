@@ -38,8 +38,8 @@ MobiKash Technologies Ltd. is a Series A FinTech startup based in Accra, Ghana, 
 | Deliverable | Status | Notes |
 |---|---|---|
 | **Threat Model Document** | Complete | STRIDE analysis across 6 attack surfaces |
-| **Network Topology Diagram** | Complete | Device-level & zone-based views |
-| **Entry Points & Attack Surface Map** | Complete | Comprehensive attack surface inventory |
+| **Network Diagram** | Complete | High-level AWS architecture |
+| **Company Overview & Asset Inventory** | Complete | 15 assets catalogued |
 | **GitHub Portfolio Setup** | Complete | Repo initialized with docs |
 
 #### Week 1 Key Artifacts:
@@ -47,8 +47,20 @@ MobiKash Technologies Ltd. is a Series A FinTech startup based in Accra, Ghana, 
 - `docs/company_overview.md` — Company background, leadership, asset inventory
 - `diagrams/network_diagram.jpeg` — High-level AWS network architecture
 
-### Weeks 2–8: Coming Soon
-- Week 2: Vulnerability assessment & scanning
+### Week 2: Reconnaissance & Network Enumeration ✅
+
+| Deliverable | Status | Notes |
+|---|---|---|
+| **Host Discovery** | Complete | Ping sweep of lab subnet, 4 live hosts identified |
+| **Port & Service Scanning** | Complete | Nmap version scan of Metasploitable 2 — 20 open ports |
+| **External Target Scans** | Complete | scanme.nmap.org and testphp.vulnweb.com |
+| **Vulnerability Mapping** | Complete | Services matched to CVEs with severity ratings |
+
+#### Week 2 Key Artifacts:
+- `docs/Week2_Reconnaissance.md` — Full recon report, scan commands, findings, and recommendations
+- `diagrams/week2/` — Nmap scan screenshots (ping sweep, version scans)
+
+### Weeks 3–8: Coming Soon
 - Week 3: Security testing & exploitation
 - Week 4: API & authentication review
 - Week 5: Infrastructure & cloud security audit
@@ -86,9 +98,9 @@ MobiKash Technologies Ltd. is a Series A FinTech startup based in Accra, Ghana, 
 ## 📖 How to Use This Portfolio
 
 1. **Start with** `README.md` (you're here)
-2. **Read** `docs/Week1_ThreatModel.md` for the full threat analysis
-3. **Review** `diagrams/network_topology.png` for system architecture
-4. **Check** `docs/attack_surfaces.md` for entry point details
+2. **Read** `docs/Week1_ThreatModel.md` for the threat analysis
+3. **Read** `docs/Week2_Reconnaissance.md` for the network enumeration report
+4. **Review** `diagrams/` for supporting visuals and scan screenshots
 5. **Follow along** as new weeks are added
 
 Each week includes:
@@ -106,9 +118,11 @@ MobiKash-Cybersecurity-Portfolio/
 ├── README.md                          # You are here
 ├── docs/
 │   ├── Week1_ThreatModel.md          # STRIDE analysis, entry points, mitigations
-│   └── company_overview.md            # Company background & asset inventory
+│   ├── company_overview.md            # Company background & asset inventory
+│   └── Week2_Reconnaissance.md        # Nmap recon & network enumeration report
 └── diagrams/
-    └── network_diagram.jpeg           # High-level AWS network architecture
+    ├── network_diagram.jpeg           # High-level AWS network architecture
+    └── week2/                         # Nmap scan screenshots
 ```
 
 ---
