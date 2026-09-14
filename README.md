@@ -173,12 +173,14 @@ Each week's artifacts are in dated folders for easy tracking.
 ## 🤝 Team Context
 
 **Group 18 Roles:**
-- Threat Modeler (McJayy) — threat identification & analysis
-- Vulnerability Assessor — scanning & discovery
-- Penetration Tester — exploitation & proof-of-concept
-- Security Architect — remediation & defense design
-- Compliance Officer — regulatory alignment
-- *(+ 5 support roles)*
+- Chief Executive Officer – Alexander Nyarko. 
+- Marketing manager – Isaac Oppong. 
+- Data Analyst – Hannah Dankwah. 
+- Accountant – Dogbo Lawrencia Adzo Fafali. 
+- Certified Finance Officer – Asmah Paul.    
+- Operations manager – Oheneba Joshua Gyan. 
+- Security and fraud detector manager – Agyapong Stephen.  
+- Compliance specialist – Faustina Awuah.
 
 Each role feeds into the final security assessment report.
 
